@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="vrremote" type="vr_mocap_project_quest3_controller_node.py" name="vr_mocap_project_quest3_controller_node" output="screen">
+        <!-- Add any node-specific parameters here if needed -->
+    </node>
+
+     <node pkg="vrremote" type="webrtc_node.py" name="webrtc_node" output="screen">
+        <!-- Add any node-specific parameters here if needed -->
+    </node>
+
+</launch>
